@@ -181,8 +181,8 @@ const Footer = () => {
           </div>
 
          
-          <div className="text-center">Copyrights reserved @StudyNotion ❤️</div>
-          <div className="text-center">Developer: Mitanshu Badgujar</div>
+{/*           <div className="text-center">Copyrights reserved @StudyNotion ❤️</div>
+          <div className="text-center">Developer: Mitanshu Badgujar</div> */}
 
         </div>
       </div>
