@@ -177,7 +177,7 @@ export function logout(navigate) {
 
     try {
       // Call the backend API to log out
-      const response = await axios.post('http://localhost:4000/api/v1/auth/logout', { userId });
+      const response = await axios.post('https://devconnect-mimc.onrender.com/api/v1/auth/logout', { userId });
 
       if (response.status === 200) {
         dispatch(setToken(null));
